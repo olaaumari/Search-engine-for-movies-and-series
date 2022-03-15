@@ -31,8 +31,22 @@ production et éventuellement le nom d’un ou de plusieurs acteurs et suggérer
 plateforme. Pour cette suggestion, vous pouvez par exemple donner les 5 films/séries les plus récent(e)s
 pour chaque plateforme, les 5 films/séries ajoutées le plus récemment etc. Vous mentionnerez le critère
 choisi.  
-# Partie 3 : Interface
+# Partie 3 : Interface 
 Vous devrez ensuite créer une interface pour l’utilisateur, afin qu’il n’ait pas à écrire de lignes de code pour
 utiliser le moteur de recherche une fois le script exécuté. Vous pourrez soit demander les infos à l’utilisateur
 avec des input puis afficher les résultats dans la console avec print (version simple), soit utiliser le module
 Python Tkinter pour réaliser une interface graphique (version plus poussée).  
+# Interface question 1 : 
+_Comme on peut le voir si on fait la recherche Spider, le moteur de recherche nous propose des films ou séries similaires alphabétiquement. Bien sûr, cela prend en compte les majuscules ou minuscules ainsi qu'une écriture partielle du titre._  
+<img width="500" alt="moteurderecherche1" src="https://user-images.githubusercontent.com/99741334/158464142-fb4182cb-3937-4920-a798-11841c27177b.png">
+
+# Interface question 2 :  
+_Le moteur de recherche trouve les films et séries où Zendaya a eu un rôle. Si on aurait écrit seulement zen le moteur de recherche aurait proposé des acteurs dont le nom ou prénom comprend zen_  
+<img width="500" alt="moteurderecherche2" src="https://user-images.githubusercontent.com/99741334/158465735-7dbbe97f-1d15-441c-b2c7-968f0a0665a4.PNG">
+# Interface question 3 :  
+_Enfin, le moteur de recherche peut proposer des films ou séries en fonction du type et du genre telle quelle._  
+<img width="500" alt="moteurderecherche3" src="https://user-images.githubusercontent.com/99741334/158466793-5319fbce-10e2-45b6-8b1d-e845f621567b.PNG">
+
+
+
+
